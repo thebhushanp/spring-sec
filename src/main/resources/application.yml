@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/badam7db
+    password: badam7
+    username: badam7
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL94Dialect
+        #show_sql: true
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://localhost:5432/badam7db
+    locations: classpath:/db/migration
+    password: badam7
+    user: badam7
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: true
+      WRITE_DATE_TIMESTAMPS_AS_NANOSECONDS: false
+server:
+  port: 8888
+
+  

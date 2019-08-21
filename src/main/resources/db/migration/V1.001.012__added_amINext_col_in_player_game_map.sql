@@ -1,0 +1,1 @@
+alter table player_game_map add column am_i_next boolean;

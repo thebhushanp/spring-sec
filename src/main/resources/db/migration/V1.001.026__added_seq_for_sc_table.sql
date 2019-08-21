@@ -1,0 +1,1 @@
+CREATE SEQUENCE sc_id_seq START 1;

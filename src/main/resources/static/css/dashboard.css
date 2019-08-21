@@ -1,0 +1,44 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    opacity: 0.5;
+    overflow: hidden;
+    background-color: #696969;
+    padding: 14px 2px;
+}
+
+.header-right {
+    float: right;
+}
+
+.creategameanchor {
+    display: inline-block;
+    margin-top: 3px;
+    background-color: #009ACD;
+}
+
+.creategameanchor:hover {
+    background-color: #00B2EE;
+}
+
+a {
+    background-color: #FF0000;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 25px;
+    text-decoration: none;
+    // if header height wants to incr display: inline-block;
+}
+
+a:hover {
+    background-color: #8B0000;
+}
+
+.username {
+    color: white;
+    padding-right: 15px;
+}
